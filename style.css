@@ -106,13 +106,13 @@ main {
   color: #1f2937;
   font-weight: 900;
   text-align: center;
-  margin: 50px;
+  margin: 32px;
 }
 
 .info-bits img {
   border: 5px solid #3882f6;
   border-radius: 10px;
-  width: 300px;
+  width: 400px;
 }
 
 .image-content {
@@ -123,13 +123,42 @@ main {
 }
 
 .info-bits {
-  width: 300px;
+  width: 400px;
   margin: 16px;
   text-align: center;
+  color: #1f2937;
 }
 
 .information {
-  margin: 50px;
+  margin-bottom: 100px;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 100px 24px;
+}
+
+.extra-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 750px;
+  gap: 16px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.speaker {
+  font-weight: 900;
+  font-size: 18px;
+  align-self: flex-end;
 }
 
 /* Footer CSS */

@@ -25,13 +25,9 @@ a {
 
 header {
   background-color: #1f2937;
-  display: flex;
-  flex-direction: column;
-  /* flex: 1; */
 }
 
-.header,
-.hero {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,6 +48,25 @@ header {
 
 .links a {
   color: #e5e7eb;
+}
+
+/* Main CSS */
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding-bottom: 100px;
 }
 
 .hero .text {
@@ -86,17 +101,12 @@ header {
   border-radius: 30px;
 }
 
-/* Main CSS */
-main {
-  flex: 1;
-}
-
-/* Information CSS */
-
 .heading {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  text-align: center;
+  margin: 50px;
 }
 
 .info-bits img {
@@ -105,11 +115,28 @@ main {
   width: 300px;
 }
 
+.image-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-bits {
+  width: 300px;
+  margin: 16px;
+  text-align: center;
+}
+
+.information {
+  margin: 50px;
+}
+
 /* Footer CSS */
 
 footer {
   color: #e5e7eb;
   background-color: #1f2937;
   text-align: center;
-  padding: 32   px;
+  padding: 32px;
 }

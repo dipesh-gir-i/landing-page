@@ -94,6 +94,7 @@ main {
   border-radius: 8px;
   padding: 12px 36px;
   align-self: flex-start;
+  font-weight: 700;
 }
 
 .hero img {
@@ -161,6 +162,37 @@ main {
   align-self: flex-end;
 }
 
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 200px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 50px 150px;
+  border-radius: 10px;
+}
+
+.call-to-action a {
+  display: inline-block;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 12px 36px;
+  align-self: flex-start;
+  font-weight: 700;
+}
+
+.call-to-action .big-text {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.call-to-action .small-text{
+    color: #e5e7eb;
+}
+
 /* Footer CSS */
 
 footer {
@@ -168,4 +200,5 @@ footer {
   background-color: #1f2937;
   text-align: center;
   padding: 32px;
+  font-size: 18px;
 }

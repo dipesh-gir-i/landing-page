@@ -1,5 +1,115 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-body {
+* {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header CSS */
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+}
+
+.header,
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  margin: 24px 250px 100px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header .links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.links a {
+  color: #e5e7eb;
+}
+
+.hero .text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 550px;
+  gap: 16px;
+}
+
+.hero .main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero .secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero a {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 12px 36px;
+  align-self: flex-start;
+}
+
+.hero img {
+  width: 600px;
+  border-radius: 30px;
+}
+
+/* Main CSS */
+main {
+  flex: 1;
+}
+
+/* Information CSS */
+
+.heading {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.info-bits img {
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+  width: 300px;
+}
+
+/* Footer CSS */
+
+footer {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  text-align: center;
+  padding: 32   px;
 }
